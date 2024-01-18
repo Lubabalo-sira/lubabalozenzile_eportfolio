@@ -49,7 +49,7 @@ const Home = () => {
                            alt={""}/>
                        <h2
                            className={`lg:ml-4 text-lg xl:text-2xl md:leading-normal text-center lg:text-left ${Theme.textPrimaryColor}`}>
-                           Welcome to my lubabalozenzile_eportfolio! If you don't find the specific information you're looking for, feel free to contact me. I'm here to help and excited to connect with you!
+                           Welcome to my eportfolio! If you don't find the specific information you're looking for, feel free to contact me. I'm here to help and excited to connect with you!
                        </h2>
                    </div>
                </div>
