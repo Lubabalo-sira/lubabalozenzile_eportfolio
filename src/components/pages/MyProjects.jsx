@@ -24,7 +24,7 @@ const MyProjects = () => {
           <div className={'w-full rounded-t-md'}>
             <img className={'rounded-t-md'} src={webpic} alt={''} />
           </div>
-          <h3 className={cardTitleClass}>Eportfolio - 2023</h3>
+          <h3 className={cardTitleClass}>lubabalozenzile_eportfolio - 2023</h3>
           <div className={cardTagsClass}>React.JS, Tailwind CSS</div>
           <span className={cardTextClass}>
             The website you're currently browsing, presenting me and my projects
@@ -32,13 +32,13 @@ const MyProjects = () => {
           <div className={cardFooterClass}>
             <Link
               className={'bg-[#444] border-r border-[#333] rounded-bl-md p-1 w-1/2 text-center text-2xl'}
-              to={'/eportfolio'}
+              to={'/lubabalozenzile_eportfolio'}
             >
               Try it
             </Link>
             <a
               className={'bg-[#444] border-l border-[#333] rounded-br-md p-1 w-1/2 text-center text-3xl'}
-              href={'https://github.com/Lubabalo-sira/lubabalozenzile_eportfolio'}
+              href={'https://github.com/Lubabalo-sira/lubabalozenzile_lubabalozenzile_eportfolio'}
               target={'_blank'}
               rel={'noopener noreferrer'}
             >

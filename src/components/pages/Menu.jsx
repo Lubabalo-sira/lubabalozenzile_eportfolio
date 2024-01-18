@@ -54,10 +54,10 @@ const Menu = () => {
                     </button>
                 </div>
 
-                <Link to="/eportfolio" className="topnav-item rounded-md" onClick={() => handleOpenCloseSidebar()}>Home<hr className={"md:hidden"}/></Link>
-                <Link to="/eportfolio/aboutme" className="topnav-item rounded-md" onClick={() => handleOpenCloseSidebar()}>About me<hr className={"md:hidden"}/></Link>
-                <Link to="/eportfolio/Skills" className={"topnav-item rounded-md"} onClick={() => handleOpenCloseSidebar()}>Skills<hr className={"md:hidden"}/></Link>
-                <Link to="/eportfolio/personalprojects" className={"topnav-item rounded-md"} onClick={() => handleOpenCloseSidebar()}>My Projects<hr className={"md:hidden"}/></Link>
+                <Link to="/lubabalozenzile_eportfolio" className="topnav-item rounded-md" onClick={() => handleOpenCloseSidebar()}>Home<hr className={"md:hidden"}/></Link>
+                <Link to="/lubabalozenzile_eportfolio/aboutme" className="topnav-item rounded-md" onClick={() => handleOpenCloseSidebar()}>About me<hr className={"md:hidden"}/></Link>
+                <Link to="/lubabalozenzile_eportfolio/Skills" className={"topnav-item rounded-md"} onClick={() => handleOpenCloseSidebar()}>Skills<hr className={"md:hidden"}/></Link>
+                <Link to="/lubabalozenzile_eportfolio/personalprojects" className={"topnav-item rounded-md"} onClick={() => handleOpenCloseSidebar()}>My Projects<hr className={"md:hidden"}/></Link>
                 <div
                     id={"dropdown"}
                     className={`${dropButtonClick}`}
@@ -72,9 +72,9 @@ const Menu = () => {
                         id={"dropdown-content"}
                         className="md:rounded-md  md:mt-2"
                         onMouseLeave={() => handleOnBlurDropdownContent()}>
-                        <Link to="/eportfolio/leadership" className={"md:rounded-t-md"} onClick={() => handleOpenCloseSidebar()}>Leadership & Management</Link>
-                        <Link to="/eportfolio/ProfessionalDevelopment" className={"md:rounded-t-md"} onClick={() => handleOpenCloseSidebar()}>Professional Development</Link>
-                        <Link to="/eportfolio/CapstoneProject" className={"md:rounded-b-md"} onClick={() => handleOpenCloseSidebar()}>Capstone Project </Link>
+                        <Link to="/lubabalozenzile_eportfolio/leadership" className={"md:rounded-t-md"} onClick={() => handleOpenCloseSidebar()}>Leadership & Management</Link>
+                        <Link to="/lubabalozenzile_eportfolio/ProfessionalDevelopment" className={"md:rounded-t-md"} onClick={() => handleOpenCloseSidebar()}>Professional Development</Link>
+                        <Link to="/lubabalozenzile_eportfolio/CapstoneProject" className={"md:rounded-b-md"} onClick={() => handleOpenCloseSidebar()}>Capstone Project </Link>
                     </div>
                 </div>
             </div>

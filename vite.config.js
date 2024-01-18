@@ -12,7 +12,7 @@ export default defineConfig({
     build: {
         outDir: 'build',
     },
-    base: '/eportfolio/',
+    base: '/lubabalozenzile_eportfolio/',
     server: {
         port: 3000,
     },

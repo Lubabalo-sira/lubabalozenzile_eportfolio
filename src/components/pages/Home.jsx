@@ -33,12 +33,12 @@ const Home = () => {
                    <div className={"mt-16 flex flex-col sm:flex-row"}>
                        <Link id={"aboutme-button"}
                            className={`slide-button mb-4 sm:mb-0 sm:mr-2 border-2 border-[#333] rounded-md p-3 w-min whitespace-nowrap hover:no-underline ${Theme.textPrimaryColor}`}
-                           to={"/eportfolio/aboutme"}>
+                           to={"/lubabalozenzile_eportfolio/aboutme"}>
                            <FontAwesomeIcon className={"pr-3"} icon={faUser}/>More about me
                        </Link>
                        <Link id={"projects-button"}
                             className={`slide-button sm:ml-2 rounded-md p-3 w-min whitespace-nowrap hover:no-underline text-white`}
-                            to={"/eportfolio/personalprojects"}>
+                            to={"/lubabalozenzile_eportfolio/personalprojects"}>
                             Browse my projects<FontAwesomeIcon className={"pl-3"} icon={faFolderOpen} />
                        </Link>
                    </div>
@@ -49,7 +49,7 @@ const Home = () => {
                            alt={""}/>
                        <h2
                            className={`lg:ml-4 text-lg xl:text-2xl md:leading-normal text-center lg:text-left ${Theme.textPrimaryColor}`}>
-                           Welcome to my eportfolio! If you don't find the specific information you're looking for, feel free to contact me. I'm here to help and excited to connect with you!
+                           Welcome to my lubabalozenzile_eportfolio! If you don't find the specific information you're looking for, feel free to contact me. I'm here to help and excited to connect with you!
                        </h2>
                    </div>
                </div>
