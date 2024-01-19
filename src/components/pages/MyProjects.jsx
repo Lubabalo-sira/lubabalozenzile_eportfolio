@@ -38,7 +38,7 @@ const MyProjects = () => {
             </Link>
             <a
               className={'bg-[#444] border-l border-[#333] rounded-br-md p-1 w-1/2 text-center text-3xl'}
-              href={'https://github.com/Lubabalo-sira/lubabalozenzile_lubabalozenzile_eportfolio'}
+              href={'https://github.com/Lubabalo-sira/lubabalozenzile_eportfolio'}
               target={'_blank'}
               rel={'noopener noreferrer'}
             >
