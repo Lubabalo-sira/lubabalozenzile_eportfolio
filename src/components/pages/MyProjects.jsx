@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import webpic from '../../assets/webpic.jpeg';
+import onlineStore from '../../assets/onlineStore.jpeg';
 
 const MyProjects = () => {
   const cardClass = `lg:relative w-full sm:w-4/5 md:w-3/5 h-max lg:w-[400px] lg:h-[450px] lg:mb-0 flex flex-col items-center rounded-md text-white ${Theme.bgPrimaryColor} shadow-md shadow-black/50`;
@@ -39,6 +40,34 @@ const MyProjects = () => {
             <a
               className={'bg-[#444] border-l border-[#333] rounded-br-md p-1 w-1/2 text-center text-3xl'}
               href={'https://github.com/Lubabalo-sira/lubabalozenzile_eportfolio'}
+              target={'_blank'}
+              rel={'noopener noreferrer'}
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </div>
+        </div>
+
+        {/* Additional Project: Online Store */}
+        <div className={cardClass}>
+          <div className={'w-full rounded-t-md'}>
+            <img className={'rounded-t-md'} src={onlineStore} alt={''} />
+          </div>
+          <h3 className={cardTitleClass}>Online Store Project</h3>
+          <div className={cardTagsClass}>HTML, Python</div>
+          <span className={cardTextClass}>
+            An online store project developed using HTML. This was a mini project for my final year.
+          </span>
+          <div className={cardFooterClass}>
+            <Link
+              className={'bg-[#444] border-r border-[#333] rounded-bl-md p-1 w-1/2 text-center text-2xl'}
+              to={'/lubabalozenzile_eportfolio'}
+            >
+              Try it
+            </Link>
+            <a
+              className={'bg-[#444] border-l border-[#333] rounded-br-md p-1 w-1/2 text-center text-3xl'}
+              href={'https://github.com/Lubabalo-sira/online-store'}
               target={'_blank'}
               rel={'noopener noreferrer'}
             >
